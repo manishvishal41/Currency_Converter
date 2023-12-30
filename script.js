@@ -3,7 +3,7 @@ function convertCurrency() {
     const toCurrency = document.getElementById('toCurrency').value;
     const amount = parseFloat(document.getElementById('amount').value);
 
-    // Define exchange rates (for simplicity, you can replace these with real-time rates from an API)
+
     const exchangeRates = {
         USD: { EUR: 0.85, GBP: 0.75, JPY: 110.25 },
         EUR: { USD: 1.18, GBP: 0.88, JPY: 128.88 },
